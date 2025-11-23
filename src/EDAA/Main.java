@@ -60,12 +60,15 @@ public class Main {
                 creche2 = scanner.nextLine();
                 System.out.println("Digite a distância entre as duas:");
                 aux = scanner.nextLine();
-                dist = Float.parseFloat(aux);
 
-                secretaria.incluirNovaConexao(creche1, creche2, dist);
-
-                System.out.println("\n-> Após inclusão da nova conexão:");
-                secretaria.informarDistancia(creche1, creche2);
+                try {
+                    dist = Float.parseFloat(aux);
+                    secretaria.incluirNovaConexao(creche1, creche2, dist);
+                    System.out.println("\n-> Após inclusão da nova conexão:");
+                    secretaria.informarDistancia(creche1, creche2);
+                } catch (NumberFormatException e) {
+                    System.err.println("Erro de formato: A distância deve ser um número válido. " + e.getMessage());
+                }
                 break;
             case "5":
                 System.out.println("Programa encerrando.");
