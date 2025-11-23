@@ -1,0 +1,14 @@
+PedroFernandes,FranciscoPauloDeOliveira,JoaoGama,HerculanoDeMelo,HiginoRoberto,AntonioMartins,PorfiroGabrielDosAnjos,JoseVicente,AnaReinaldo,AmaroCavalcante,JoanaTimoteo
+PedroFernandes,FranciscoPauloDeOliveira,3.6
+PedroFernandes,JoaoGama,11.4
+PedroFernandes,HerculanoDeMelo,14.5
+FranciscoPauloDeOliveira,JoaoGama,14.7
+JoaoGama,PorfiroGabrielDosAnjos,7.6
+JoaoGama,AnaReinaldo,13.6
+PorfiroGabrielDosAnjos,HiginoRoberto,1.5
+PorfiroGabrielDosAnjos,AntonioMartins,7.9
+HiginoRoberto,AntonioMartins,10.4
+AntonioMartins,JoseVicente,12.9
+AnaReinaldo,AmaroCavalcante,5.7
+AnaReinaldo,JoanaTimoteo,5.7
+AmaroCavalcante,JoanaTimoteo,2.9

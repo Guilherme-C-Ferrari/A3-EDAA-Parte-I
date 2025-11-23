@@ -81,7 +81,7 @@ public class SecretariaEducacao {
 
     // --- Funcionalidade 2: Informar o número de conexões partindo de cada creche ---
     public void informarNumConexoes() {
-        System.out.println("\n## 2. Número de Conexões por Creche");
+        System.out.println("\n## 1. Número de Conexões por Creche");
         for (int i = 0; i < num_creches; i++) {
             int conexoes = 0;
             for (int j = 0; j < num_creches; j++) {
@@ -97,11 +97,11 @@ public class SecretariaEducacao {
         int i = lista_creches.getIndice(creche_origem);
 
         if (i == -1) {
-            System.out.println("\n## 3. Listar Conexões Ordenadas\n Creche '" + creche_origem + "' não encontrada.");
+            System.out.println("\n## 2. Listar Conexões Ordenadas\n Creche '" + creche_origem + "' não encontrada.");
             return;
         }
 
-        System.out.println("\n## 3. Conexões de " + creche_origem + " (em ordem crescente de distância)");
+        System.out.println("\n## 2. Conexões de " + creche_origem + " (em ordem crescente de distância)");
 
         ConexaoInfo[] conexoes = new ConexaoInfo[num_creches];
         int count = 0;
@@ -134,7 +134,7 @@ public class SecretariaEducacao {
         int i = lista_creches.getIndice(creche_a);
         int j = lista_creches.getIndice(creche_b);
 
-        System.out.println("\n## 4. Informar Distância Direta");
+        System.out.println("\n## 3. Informar Distância Direta");
 
         if (i == -1 || j == -1) {
             System.out.println("Pelo menos uma das creches não foi encontrada.");
@@ -155,7 +155,7 @@ public class SecretariaEducacao {
         int i = lista_creches.getIndice(creche_a);
         int j = lista_creches.getIndice(creche_b);
 
-        System.out.println("\n## 5. Incluir Nova Conexão");
+        System.out.println("\n## 4. Incluir Nova Conexão");
 
         if (i == -1 || j == -1) {
             System.out.println("Pelo menos uma das creches não foi encontrada. Conexão não incluída.");
